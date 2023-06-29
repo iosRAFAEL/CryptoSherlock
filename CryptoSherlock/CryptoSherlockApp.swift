@@ -2,7 +2,7 @@
 //  CryptoSherlockApp.swift
 //  CryptoSherlock
 //
-//  Created by BLASTA RECORDZ on 29.06.2023.
+//  Created by RAFAEL on 29.06.2023.
 //
 
 import SwiftUI
