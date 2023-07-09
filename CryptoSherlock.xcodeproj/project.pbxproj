@@ -21,6 +21,7 @@
 		EB5F05592A58D911003E18F2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F05582A58D911003E18F2 /* HomeViewModel.swift */; };
 		EBA867212A5A213400DA33BD /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA867202A5A213400DA33BD /* CoinDataService.swift */; };
 		EBAC86D92A56404B00BD1121 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAC86D82A56404A00BD1121 /* Double.swift */; };
+		EBC2575F2A5B43B700A1E7FE /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC2575E2A5B43B700A1E7FE /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		EB5F05582A58D911003E18F2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		EBA867202A5A213400DA33BD /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		EBAC86D82A56404A00BD1121 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		EBC2575E2A5B43B700A1E7FE /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				EB3E06E32A4CDBDD00BA7950 /* CryptoSherlockApp.swift */,
+				EBC2575D2A5B42EF00A1E7FE /* Utilites */,
 				EB03DD742A4CEFD50014F83C /* Extensions */,
 				EBA8671F2A5A205200DA33BD /* Services */,
 				EB1C5EF82A5377A100ABECC2 /* Models */,
@@ -167,6 +170,14 @@
 				EBA867202A5A213400DA33BD /* CoinDataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		EBC2575D2A5B42EF00A1E7FE /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				EBC2575E2A5B43B700A1E7FE /* NetworkingManager.swift */,
+			);
+			path = Utilites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 				EB3E06E42A4CDBDD00BA7950 /* CryptoSherlockApp.swift in Sources */,
 				EB23D3692A52359E005F44AA /* CircleButtonView.swift in Sources */,
 				EB03DD762A4CF0360014F83C /* Color.swift in Sources */,
+				EBC2575F2A5B43B700A1E7FE /* NetworkingManager.swift in Sources */,
 				EB1D4CA02A525413005E3AF0 /* CircleButtonAnimationView.swift in Sources */,
 				EB3764802A54B91600C0F8A6 /* PreviewProvider.swift in Sources */,
 				EBAC86D92A56404B00BD1121 /* Double.swift in Sources */,

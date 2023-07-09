@@ -40,7 +40,7 @@ struct HomeView: View {
 }
 
 struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
+    static var previews: some View {  
         NavigationView {
             HomeView()
                 .navigationBarHidden(true)
@@ -80,7 +80,7 @@ extension HomeView {
         List {
             ForEach(vm.allCoins) { coin in
                 CoinRowView(coin: coin, showHoldingColumn: false)
-                    .listRowInsets(.init(top: 10, leading: 0, bottom: 35, trailing: 10))
+                    .listRowInsets(.init(top: 10, leading: 0, bottom: 10, trailing: 10))
             }
         }
         .listStyle(PlainListStyle())
